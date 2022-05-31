@@ -1,0 +1,19 @@
+{
+  "name": "1_ccxt2db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ccxt2db.js",
+  "scripts": {
+    "test": "standard && node ccxt2db.js"
+  },
+  "author": "Reza",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "dependencies": {
+    "standard": "*",
+    "ccxt": "^1.84.50",
+    "mongodb": "^4.6.0"
+  }
+}

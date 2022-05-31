@@ -1,0 +1,17 @@
+{
+  "name": "signals2db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data2db.js",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard && node data2db.js"
+  },
+  "author": "Reza",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
+}

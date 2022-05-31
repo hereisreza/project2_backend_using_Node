@@ -1,0 +1,26 @@
+# db to grapghql:
+# https://graphql.org/graphql-js/running-an-express-graphql-server/
+
+npm init
+npm i express express-graphql graphql
+npm i mongodb
+# add to scripts in package.json:
+"test": "standard && node db2graphql.js"
+# add to package.json:
+"devDependencies": {
+    "standard": "*"
+  }
+
+npm test
+# http://localhost:4000/graphql :
+
+{
+  pair(name: "BTC/USDT") {
+    _id
+    open
+    high
+    low
+    close
+    volume
+  }
+}

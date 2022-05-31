@@ -1,0 +1,17 @@
+{
+  "name": "rankanalyst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rank_analyst.js",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard && node rankAnalyst.js"
+  },
+  "author": "Reza",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
+}

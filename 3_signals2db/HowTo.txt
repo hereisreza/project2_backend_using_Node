@@ -1,0 +1,12 @@
+npm init
+npm i mongodb
+
+#add this to package.json:
+"devDependencies": {
+    "standard": "*"
+}
+"scripts": {
+    "test": "standard && node data2db.js"
+}
+
+npm test

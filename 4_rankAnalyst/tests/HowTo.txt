@@ -1,0 +1,16 @@
+npm init
+npm i mongodb
+
+#add this to package.json:
+"devDependencies": {
+    "standard": "*"
+}
+"scripts": {
+    "test": "standard && node rankAnalyst.js"
+}
+
+node ../src/rankAnalyst.js
+
+npm i jest --save-dev
+npm run test
+# https://www.freecodecamp.org/news/how-to-start-unit-testing-javascript/

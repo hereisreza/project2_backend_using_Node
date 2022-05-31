@@ -1,0 +1,21 @@
+{
+  "name": "db2graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db2graphql.js",
+  "scripts": {
+    "test": "standard && node db2graphql.js"
+  },
+  "author": "Reza",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.5.0",
+    "mongodb": "^4.6.0"
+    
+  }
+}

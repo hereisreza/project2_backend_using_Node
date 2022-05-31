@@ -1,0 +1,13 @@
+# ccxt2db:
+# https://standardjs.com/
+npm init
+npm i ccxt
+npm i mongodb
+standard --fix
+
+# for binance constructor as lowercase error fix:
+# add this to top of the main js file:
+
+/* eslint new-cap: ["error", { "newIsCap": false }] */
+
+npm test

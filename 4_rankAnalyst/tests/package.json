@@ -1,0 +1,14 @@
+{
+  "name": "rank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../src/rankAnalyst.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Reza",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
